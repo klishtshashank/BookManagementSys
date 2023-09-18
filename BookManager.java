@@ -35,7 +35,7 @@ class BookManager {
             book.setISBN(newisbn);
                  break;
         }
-                           
+                      
             }
         }
     
@@ -45,10 +45,5 @@ class BookManager {
     public void deleteBook(int bookId) {
         books.removeIf(book -> book.getBookId() == bookId);
     }
-
-    // Additional methods as needed
-
-    // Getters and setters for books
-
 }
 
